@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="icon" href="../img/Sikander-2.png">
+    <script src="../script.js" defer></script>
+    <!-- Link to Font Awesome -->
+    <script src="https://kit.fontawesome.com/d11723fac3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar sticky">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/Sikander-2.png" alt="Sikander Logo">Sikander Reviews</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="./main.html" class="dropdown-btn"><strong>Home</strong></a></li>
+                <li class="dropdown">
+                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                        <a href="../movies/movies.html">Movies</a></button>
+                    <i class="fa-solid fa-arrow-down" style="margin-left: 5px;"></i>
+                    <div class="dropdown-content">
+                        <a href="./IMDb.html" target="_blank">Top 10 Movies by IMDb</a>
+                        <a href="./SR.html" target="_blank">Top 10 Movies by SR</a>
+                        <a href="./genre.html" target="_blank">Genre</a>
+                        <a href="./Calendar.html" target="_blank">Release Date</a>
+                        <a href="../movies/movies.html" target="_blank">Reviews</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                        <a href="./series.html">TV Shows / <br> TV Series</a></button>
+                    <i class="fa-solid fa-arrow-down" style="margin-left: 5px;"></i>
+                    <div class="dropdown-content">
+                        <a href="" target="_blank"></a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-btn" onclick="toggleDropdown()">
+                        <a href="./celebrities.html">Actors</a></button>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="center" style="margin-top: 80px;">Movies</h1>
+
+    <div class="flex-container">
+        <!-- Dune: Part Two -->
+        <div class="flex" style="margin-left: 50px;">
+            <a href="" target="_blank"><img src="../img/dune.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Dune: Part Two  <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Drama</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00"></i>9.0/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00"></i>9/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Top Gun -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/top gun.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Top Gun: Maverick <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Drama</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00"></i>8.3/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00"></i>10/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Det kommer en dag -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/one day.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Det Kommer En Dag <br> The Day Will Come</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Drama</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00"></i>7.9/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00"></i>8/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- AlphaGo -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/alphago.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>AlphaGo <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Documentary | Sport</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00"></i>7.8/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i>8/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- The Hunger Games Catching Fire -->
+        <div class="flex">
+            <a href="https://youtu.be/MkvUNfySGQU" target="_blank"><img src="../img/hunger2.png" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The Hunger Games: <br> Catching Fire</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Sci-Fi</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 7.5/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Max Manus -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/manus.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Max Manus <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>Action | Biography | Crime</td>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 7.3/10</td>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 9/10</td>
+                </tr>
+            </table>
+        </div>
+        <!-- The Hunger Games 1 -->
+        <div class="flex">
+            <a href="https://youtu.be/PbA63a7H0bo" target="_blank"><img src="../img/hunger1.png" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The Hunger Games <br> The First Movie</th>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>Action | Adventure | Sci-Fi</td>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 7.2/10</td>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+         <!-- King's Choice-->
+         <div class="flex">
+            <a href="https://youtu.be/PbA63a7H0bo" target="_blank"><img src="../img/kongens-nei.jpg" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The King's Choice <br> Kongens nei</th>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>Biography | Drama | History</td>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 7.1/10</td>
+                </tr>
+                <tr style="font-size: 15px;">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 10/10</td>
+                </tr>
+            </table>
+        </div>
+        <!-- The Hunger Games: The Ballad of Songbirds and Snakes -->
+        <div class="flex">
+            <a href="https://youtu.be/NxW_X4kzeus" target="_blank"><img src="../img/hungerballad.png" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The Hunger Games: <br> Ballad of Songbirds and Snakes</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Drama</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.9/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i>10/10</b></td>
+                </tr>
+            </table>
+        </div>
+        <!-- Barbie -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/barbie.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Barbie <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Adventure | Comedy | Fantasy</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.9/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 7/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- The Hunger Games - Mockingjay Part 1 -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/mockingjay.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The Hunger Games: <br> Mockingjay Part 1</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Drama</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.6/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- The Hunger Games - Mockingjay Part 2 -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/mockingjay2.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The Hunger Games: <br> Mockingjay Part 2</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Sci-Fi</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.5/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+        <!-- The Dictator -->
+        <div class="flex">
+            <a href="https://youtu.be/cYplvwBvGA4" target="_blank"><img src="../img/The Dictator.png" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>The Dictator</b><br>The Movie</th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Comedy | Drama</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.4/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6/10</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Johnny English Reborn -->
+        <div class="flex">
+            <a href="https://youtu.be/LOSZLgzgnBs" target="_blank"><img src="../img/reborn.png" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Johnny English <br> Reborn</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Comedy</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.3/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Johnny English -->
+        <div class="flex">
+            <a href="https://youtu.be/bbi0A2EUQUs" target="_blank"><img src="../img/english.png" alt=""
+                    class="smallpic"></a>
+            <table>
+                <tr>
+                    <th><b>Johnny English <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Adventure | Comedy</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6.2/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 9/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Børning 1 -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/børning1.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Børning <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Comedy</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00"></i> 6.2/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Børning 2 -->
+        <div class="flex">
+            <a href="" target="_blank"><img src="../img/børning2.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Børning 2 <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Comedy</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00"></i> 5.9/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+        <!-- There's Something in the Barn -->
+        <div class="flex">
+            <a href="https://youtu.be/dJt3AAnETy0" target="_blank"><img src="../img/barn.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>There's Something in the Barn <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Comedy | Fantasy | Horror</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 5.5/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Five Nights at Freddy's -->
+
+        <div class="flex">
+            <a href="https://youtu.be/Z_T0o5uNrlY" target="_blank"><img src="../img/fnaf.png" alt="" class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Five Nights at Freddy's <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Horror | Mystery | Thriller</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 5.5/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 6/10</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Børning 3 -->
+        <div class="flex">
+            <a href="https://youtu.be/Z_T0o5uNrlY" target="_blank"><img src="../img/børning3.png" alt=""
+                    class="smallpic"></a>
+            <table class="table">
+                <tr>
+                    <th><b>Børning 3 <br> The Movie</b></th>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>Action | Comedy</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>IMDb <i class="fa-solid fa-star" style="color: #ffff00;"></i> 5.2/10</td>
+                </tr>
+                <tr style="font-size: 15px">
+                    <td>SR <i class="fa-solid fa-star" style="color: #ffff00;"></i> 8/10</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
